@@ -14,3 +14,6 @@ PS > . { Invoke-WebRequest -useb https://boxstarter.org/bootstrapper.ps1 } | iex
 ```
 PS > Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/b4r0nd3l4b1rr4/VirtualDevWindows/main/VariacionRTO.choco
 ```
+#### Se reiniciará la maquina windows y se instalará el script Choco.
+
+#### Profit :)
