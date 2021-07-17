@@ -50,6 +50,7 @@ git clone --recurse-submodules https://github.com/cobbr/Covenant C:\tools\Covena
 git clone https://github.com/its-a-feature/Mythic.git C:\tools\Mythic
 git clone https://github.com/BC-SECURITY/Empire.git C:\tools\Empire
 Invoke-WebRequest -Uri https://github.com/BC-SECURITY/Starkiller/releases/download/v1.7.0/starkiller.Setup.1.7.0.exe -OutFile C:\tools\starkiller.Setup.1.7.0.exe
+
 # IE first run
 New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer"
 New-Item -Path "HKLM:\SOFTWARE\Policies\Microsoft\Internet Explorer\Main"
