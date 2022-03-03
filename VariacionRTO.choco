@@ -80,7 +80,7 @@ Install-ChocolateyShortcut -shortcutFilePath "C:\Users\Public\Desktop\Neo4j.lnk"
 
 New-Item -Path C:\ -Name BGInfo -ItemType Directory -ErrorAction SilentlyContinue
 Invoke-WebRequest -Uri 'https://github.com/b4r0nd3l4b1rr4/VirtualDevWindows/raw/main/fondo.jpg' -OutFile "C:\BGInfo\wallpaper.jpg"
-Invoke-WebRequest -Uri 'https://github.com/ZeroPointSecurity/RTOVMSetup/raw/master/bginfo.bgi' -OutFile "C:\BGInfo\bginfo.bgi"
+Invoke-WebRequest -Uri 'https://github.com/b4r0nd3l4b1rr4/VirtualDevWindows/raw/main/bginfo.bgi' -OutFile "C:\BGInfo\bginfo.bgi"
 New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\ -Name BGInfo -Value "C:\tools\sysinternals\Bginfo64.exe /accepteula /iC:\BGInfo\bginfo.bgi /timer:0"
 
 # Misc
